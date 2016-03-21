@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baidu</title>
+	<link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+
+<div class="header_top clearfix">
+	<ul class="header clearfix">
+		<li><a href="#">糯米</a></li>
+		<li><a href="#">新闻</a></li>
+		<li><a href="#">hao123</a></li>
+		<li><a href="#">地图</a></li>
+		<li><a href="#">视频</a></li>
+		<li><a href="#">贴吧</a></li>
+		<li><a href="#" onclick="open1()">登陆</a></li>
+	    	
+
+	             	
+	    	    	
+		<li class="sezhi2"><a href="#">设置</a>
+      
+          <ul class="sezhi">
+			   	  <li><a href="##">搜索设置</a></li>
+			   	  <li><a href="##">高级搜索</a></li>
+			   	  <li><a href="##">关闭预测</a></li>
+			   	  <li><a href="##">搜索历史</a></li>
+			   </ul>
+
+		</li>
+		
+
+      <!-- <li class="header_c_1"><a href="#">更多产品</a></li> -->
+		   
+		 <li class="header_c"><a href="#">更多产品</a>
+		       <ul class="more">
+		       		<li class="more-first">更多产品</li>
+					<li><i></i><p><a href="#">音乐</a></p><span></span></li>
+					
+					<li><i></i><p><a href="#">图片</a></p>	<span></span></li>
+				
+					<li><i></i><p><a href="#">知道</a></p><span></span></li>
+					
+					<li><i></i><p><a href="#">文库</a></p><span></span></li>
+					
+					<li><i></i><p><a href="#">风云榜</a></p><span></span></li>
+					
+					<li><i></i><p><a href="#">百度推广</a></p>	<span></span></li>
+
+
+				    <li><p class="all"><a href="">全部产品>></a></p></li>
+				    <li class="white1"></li>
+				</ul>
+		</li>
+		<!-- <li class="header_c_h"><a href="#">更多产品</a></li>
+ -->
+
+	</ul>
+</div>
+<div class="clearfix"></div>
+
+  
+
+<!-- main -->
+
+  <div class="main clearfix">
+  	  <img src="images/bd_logo1.png" title="baidu">
+  	  <div class="search clearfix">
+	  	  <input type="text" class="text" autofocus id="search_s"><!--
+	  	  --><input type="submit" class="submit" value="百度一下">
+	  	   <ul id="search_result"></ul>
+      </div>
+     
+  </div>
+           
+
+
+	  <!-- foolter -->
+  <div class="footer clearfix">
+  	<div class="erweima1 clearfix">
+  		<img src="images/erweima.png">
+  		<div class="erweima1_zi">
+	  		<p>手机百度</p>
+	  		<p>快人一步</p>
+  		</div>
+  	</div>
+
+  	<div class="erweima2 clearfix">
+  		<img src="images/erweima.png">
+  		<div class="erweima2_zi">
+	  		<p>百度糯米</p>
+	  		<p>一毛大餐</p>
+  		</div>
+  	</div>
+     
+   <div class="footer_right clearfix">
+	   	<p>
+	   	   <a href="#">把百度设为主页</a>
+	       <a href="#">关于百度</a>
+	       <a href="#">About  Baidu</a>
+
+	   	</p>
+	   	 <p>
+	   	©2015 Baidu <a href="">使用百度前必读</a> <a href="">意见反馈 </a>京ICP证030173号 </a>
+	  
+	   	
+	   </p>
+
+   </div>
+
+  </div>
+
+
+      <div class="denglu_bg clearfix" id="denglu_bg_id">
+	             <div class="dneglu">
+	             	<div class="denglu_top clearfix">
+	             		<h1 >百度帐号登陆</h1>
+	             		<span onclick="close1()">x</span>
+	             		
+	             	</div>
+	             	<div class="denglu_main">
+	             		<h2>
+	             			<a href="#">短信快捷登陆</a>
+	             		</h2>
+	             		
+	             		<input type="text" class="denglu_text">
+	             		<input type="password" class="denglu_password">
+
+	             		<div class="denglu_main_bot">
+	             			<span>
+	             			<input type="checkbox" id="denglu_f">
+		             			<label for="denglu_f"> 下次自动登陆
+		             			</label>
+	             			</span>
+                            <span class="wangle clearfix">
+	             			<a href="#">忘记密码？</a>
+                            </span>
+	             		</div>
+
+	             		<div class="denglu_main_but">
+	             			<a href="#" >
+	             				登陆
+	             			</a>
+                         <p>立即登录</p>
+
+	             		</div>
+	             		
+                      
+	             	
+
+
+
+	             	</div>
+
+	             	<div class="denglu_footer">
+	             	  <div class="denglu_footer_inner clearfix">
+	             	      <p>可以使用以下方式登录</p>
+	             	      <ul>
+	             	      	<li><a href="#" class="qq"></a></li>
+	             	      	<li><a href="#" class="other"></a></li>
+	             	      </ul>
+                       </div>
+
+	             	</div>
+
+
+	             	 <div class="denglu_footer_er">
+                 	
+                 	
+                 </div>
+             	  </div>   
+
+
+     	         </div>
+                 
+
+                
+     	    <script>
+     	    function open1(){
+     	    document.getElementById("denglu_bg_id").style.display="block";
+     	    }
+
+     	   
+		      function close1(){
+			  // {document.getElementsByClassName("denglu_bg").style.display="none";
+			  // alert(document.getElementsByClassName("denglu_bg").style)
+			  // }
+			  document.getElementById("denglu_bg_id").style.display="none";
+			  // alert(document.getElementById("denglu_bg_id").style.display)
+			   }
+             
+             //jsonp
+           var search_result=document.getElementById("search_result");
+           var search=document.getElementById("search_s");
+           // var search_li;
+           // console.log(search);
+           search.oninput=function(){
+           	var script=document.createElement("script");
+            script.src="https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd="+search_s.value+"&cb=aaa";
+            document.body.appendChild(script);
+
+           }
+
+           function aaa(data){
+            search_result.style.display="block";
+           	var html="";
+           	// console.log(data.s[0]);
+           	for(var i = 0 ; i < data.s.length; i++) {
+				html += "<li>"+data.s[i]+"</li>";
+			}
+			search_result.innerHTML=html;
+			var search_li=search_result.getElementsByTagName("li");
+            //循环click
+            try{
+            	for(var j=0;j<data.s.length;j++){
+		 		(function(j){
+
+              		search_li[j].onclick=function(){
+                  	search.value=search_li[j].innerHTML;
+                  	console.log(1);
+                  	search_result.style.display="none";
+              		}
+		 		})(j)
+            	}			 
+		  }catch(e){
+		 	console.log(e);
+		  }
+			// console.log(html);
+        }
+        
+
+        search.onblur=function(){
+          search_result.style.display="none";
+        }
+           //
+           // console.log(search_li.length);
+		
+
+			</script> 	
+</body>
+</html>
